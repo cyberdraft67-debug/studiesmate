@@ -61,6 +61,7 @@ tailwind.config = {
   .social-card:hover { transform:translateY(-2px); border-color:rgba(245,158,11,0.3); }
   .watermark { position:absolute; font-size:120px; font-weight:900; color:rgba(245,158,11,0.02); pointer-events:none; user-select:none; letter-spacing:-0.05em; }
   .gift-icon { animation:giftPulse 2s ease infinite; }
+  .sm-logo{width:72px;height:72px;border-radius:50%;object-fit:contain;background:#fff}
   ::-webkit-scrollbar{width:4px}::-webkit-scrollbar-track{background:transparent}::-webkit-scrollbar-thumb{background:rgba(245,158,11,0.2);border-radius:4px}
   @media print {
     @page{size:A4;margin:0}
@@ -77,6 +78,7 @@ tailwind.config = {
     .portal-card::before{opacity:0!important}
     .qr-placeholder::after{opacity:0.5!important}
     .gift-icon{animation:none!important}
+    .sm-logo{width:72px!important;height:72px!important}
   }
 </style>
 </head>
@@ -120,7 +122,7 @@ tailwind.config = {
           <div class="corner-accent bl"></div>
           <div class="corner-accent br"></div>
           <div class="text-center">
-            <div class="w-14 h-14 rounded-full bg-gradient-to-br from-gold-400 to-gold-600 mx-auto mb-3 flex items-center justify-center text-dark-500 font-bold text-lg">SM</div>
+            <img src="https://z-cdn-media.chatglm.cn/files/350a00e3-c92a-45b0-aaa7-687bcb98e6e9.jpeg?auth_key=1878404984-8edf2b3d27ac4fa5835c7edb5e443dd6-0-529698a2b2bd982e21de75340cdc7710" alt="StudiesMate Logo" class="sm-logo mx-auto mb-3">
             <p class="text-white/80 text-sm font-light italic leading-relaxed mb-4">
               "You were among the first to believe in a better way to learn. The future of education in Pakistan starts here. We are glad you are with us."
             </p>
